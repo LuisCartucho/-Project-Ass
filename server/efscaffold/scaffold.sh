@@ -1,0 +1,2 @@
+﻿dotnet tool install -g dotnet-ef
+dotnet ef dbcontext scaffold "Server=ep-autumn-smoke-ag6ae3x4-pooler.c-2.eu-central-1.aws.neon.tech;DB=neondb;UID=neondb_owner;PWD=npg_ZNWxm8Lw3bFR;SslMode=require" Npgsql.EntityFrameworkCore.PostgreSQL   --context MyDbContext     --no-onconfiguring        --schema library   --force
